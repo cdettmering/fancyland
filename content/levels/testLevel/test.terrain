@@ -1,0 +1,64 @@
+local Point = require(MATHPATH .. 'Point')
+local Shape = require(MATHPATH .. 'Shape')
+
+return
+{
+    Shape:new(
+              Point:new(-3, 478),
+              Point:new(382, 507),
+              Point:new(382, 557),
+              Point:new(7, 557)
+             ),
+    Shape:new(
+              Point:new(425, 486),
+              Point:new(797, 507),
+              Point:new(797, 557),
+              Point:new(434, 523)
+             ),
+    Shape:new(
+              Point:new(917, 507),
+              Point:new(1287, 507),
+              Point:new(1287, 557),
+              Point:new(917, 557)
+             ),
+    Shape:new(
+              Point:new(1287, 507),
+              Point:new(1432, 652),
+              Point:new(1287, 652)
+             ),
+    Shape:new(
+              Point:new(1687, 652),
+              Point:new(1737, 622),
+              Point:new(1737, 652)
+             ),
+    Shape:new(
+              Point:new(1837, 622),
+              Point:new(1922, 707),
+              Point:new(1837, 707)
+             ),
+    Shape:new(
+              Point:new(1487, 507),
+              Point:new(1572, 467),
+              Point:new(1572, 507)
+             ),
+    Shape:new(
+              Point:new(1572, 467),
+              Point:new(1642, 437),
+              Point:new(1642, 467)
+             ),
+    Shape:new(
+              Point:new(1642, 437),
+              Point:new(1707, 392),
+              Point:new(1707, 437)
+             ),
+    Shape:new(
+              Point:new(1707, 392),
+              Point:new(1927, 342),
+              Point:new(1927, 392)
+             ),
+    Shape:new(
+              Point:new(1927, 342),
+              Point:new(1957, 327),
+              Point:new(1957, 342)
+             )
+}

@@ -1,0 +1,5 @@
+return
+{
+    speed = 2,
+    textures = { 'fg_1.png','fg_1.png','fg_1.png','fg_1.png','fg_1.png','fg_1.png','fg_1.png','fg_1.png'}
+}

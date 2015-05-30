@@ -1,0 +1,14 @@
+local Point = require(MATHPATH .. 'Point')
+
+return
+{
+    startPoint = Point:new(200, 300),
+    finishLine = 1000,
+    timeToComplete = 1000,
+    enemyFile = 'test.enemymap',
+    terrainFile = 'test.terrain',
+    backgroundLayerFile = 'test_bg.layer',
+    backForegroundLayerFile = 'test_bfg.layer',
+    functionalLayerFile = 'test_f.layer',
+    foregroundLayerFile = 'test_fg.layer'
+}

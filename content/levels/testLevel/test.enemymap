@@ -1,0 +1,13 @@
+local Point = require(MATHPATH .. 'Point')
+
+return
+{
+    dictionary = { ['Bat'] = 'Bat.lua'
+                 },
+    enemies = {
+                   {position = Point:new(500, 300), type = 'Bat'},
+                   {position = Point:new(700, 100), type = 'Bat'},
+                   {position = Point:new(900, 200), type = 'Bat'},
+                   {position = Point:new(1000, 150), type = 'Bat'}
+              }
+}

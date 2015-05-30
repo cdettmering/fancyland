@@ -1,0 +1,7 @@
+MATHPATH = 'math/'
+PHYSICSPATH = 'physics/'
+DATATYPEPATH = 'datatype/'
+FILEPATH = 'files/'
+TESTPATH = 'test/'
+CONTENTPATH = 'content/'
+GRAPHICSPATH = 'graphics/'
